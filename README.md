@@ -65,14 +65,11 @@ Example structure of the first rows:
 
 ```text
 Customer_Age | Gender | Education_Level | Marital_Status | Income_Category | Card_Category | Months_on_book | Total_Relationship_Count | Months_Inactive_12_mon | Contacts_Count_12_mon | Credit_Limit | Total_Revolving_Bal | Avg_Open_To_Buy | Total_Amt_Chng_Q4_Q1 | Total_Trans_Amt | Total_Trans_Ct | Total_Ct_Chng_Q4_Q1 | Avg_Utilization_Ratio | Attrition_Flag
+46           | F      | High School      | Married         | Less than $40K   | Blue      | 39             | 5                          | 1                        | 3                        | 1438.3       | 172.0             | 1266.3          | 0.703               | 1144            | 42             | 0.711               | 0.120               | Existing Customer
+45           | M      | Graduate         | Single          | $80K - $120K     | Gold      | 46             | 3                          | 2                        | 3                        | 3444.5       | 0.0               | 3444.5          | 0.741               | 1291            | 33             | 0.820               | 0.000               | Existing Customer
 ```
 
-## Key Insights Explored
-- Relationship between customer age and churn
-- Impact of revolving balance on churn likelihood
-- Connection between transaction activity and customer contact frequency
-- Correlation between important financial features
-- Class imbalance effects on model performance
+These two rows show the kind of information stored in the dataset: customer demographics, card activity, spending behavior, and the final churn label.
 
 ## Models Used
 The notebook evaluates several classifiers, including:
