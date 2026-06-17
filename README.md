@@ -45,10 +45,6 @@ The notebook follows this pipeline:
 1. Load the dataset and inspect its structure
 2. Remove irrelevant or identifier columns such as `CLIENTNUM` 
 3. Perform exploratory data analysis (EDA)
-   - customer age distribution by churn status
-   - revolving balance trends
-   - transaction activity vs. contact frequency
-   - correlation analysis
 4. Encode categorical variables using one-hot encoding
 5. Split the data into training and testing sets
 6. Scale numeric features
