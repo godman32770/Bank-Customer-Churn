@@ -43,21 +43,20 @@ The notebook follows this pipeline:
 ![Bank Customer Churn Workflow](Capture.PNG)
 
 1. Load the dataset and inspect its structure
-2. Remove irrelevant or identifier columns such as `CLIENTNUM` and the two naive Bayes classifier columns
+2. Remove irrelevant or identifier columns such as `CLIENTNUM` 
 3. Perform exploratory data analysis (EDA)
    - customer age distribution by churn status
    - revolving balance trends
    - transaction activity vs. contact frequency
    - correlation analysis
-4. Drop redundant features if needed (for example, highly correlated credit features)
-5. Encode categorical variables using one-hot encoding
-6. Split the data into training and testing sets
-7. Scale numeric features
-8. Train multiple classifiers
+4. Encode categorical variables using one-hot encoding
+5. Split the data into training and testing sets
+6. Scale numeric features
+7. Train multiple classifiers
    - Logistic Regression
    - XGBoost
    - LightGBM
-9. Evaluate the models using accuracy, precision, recall, F1-score, and classification reports
+8. Evaluate the models using accuracy, precision, recall, F1-score, and classification reports
 
 ## Sample Data Preview
 A quick look at the first few rows (`df.head()`) shows the dataset contains both customer behavior features and the target label. Each row represents one customer, and the notebook uses these columns to learn patterns that separate existing customers from churned customers.
